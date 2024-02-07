@@ -1,0 +1,27 @@
+
+.container-fluid {
+    display: grid;
+    place-items: center;
+}
+
+div#header {
+    color: white;
+    background-color: #293049;
+    height: 30px;
+    font-size: larger;
+    font-family: 'Roboto', Tahoma, sans-serif;
+}
+
+div#root-content {
+    background-image: url('../assets/images/image.webp');
+    background-repeat: round;
+    height: 1000px;
+}
+
+div#footer {
+    background-color: #09090A;
+    height: 60px;
+    color: white;
+    font-size: medium;
+    font-family: 'Roboto', Tahoma, sans-serif;
+}
