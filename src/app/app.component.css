@@ -1,26 +1,29 @@
-
-.container-fluid {
-    display: grid;
-    place-items: center;
+div#root-div {
+    height: 100vh;
+    width: 100%;
+    margin: 0;    
 }
 
 div#header {
+    height: 10%;
     color: white;
     background-color: #293049;
-    height: 30px;
     font-size: larger;
     font-family: 'Roboto', Tahoma, sans-serif;
 }
 
 div#root-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 85%;
     background-image: url('../assets/images/image.webp');
-    background-repeat: round;
-    height: 1000px;
+    background-repeat: round;    
 }
 
 div#footer {
+    height: 5%;
     background-color: #09090A;
-    height: 60px;
     color: white;
     font-size: medium;
     font-family: 'Roboto', Tahoma, sans-serif;

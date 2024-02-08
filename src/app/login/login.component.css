@@ -1,7 +1,15 @@
+
+.card {
+    background-color: rgba(71, 67, 67, 0.397); 
+    margin: 0 auto;    
+}
+
 .card-header h3 {
+    color: white;
     text-align: left;
 }
 
 .card-body .mb-3 label {    
+    color: white;
     display: flex;    
 }

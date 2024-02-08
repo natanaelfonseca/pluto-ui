@@ -1,0 +1,8 @@
+#home-container-root {    
+    background-color: rgb(245, 245, 245);    
+    border: 1px solid black;
+}
+
+#sidebar { 
+    background-color: red;
+}
