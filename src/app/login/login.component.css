@@ -1,7 +1,6 @@
-
 .card {
-    background-color: rgba(71, 67, 67, 0.397); 
-    margin: 0 auto;    
+    background-color: rgba(71, 67, 67, 0.397);
+    margin: 0 auto;
 }
 
 .card-header h3 {
@@ -9,7 +8,14 @@
     text-align: left;
 }
 
-.card-body .mb-3 label {    
+.card-body .mb-3 label {
     color: white;
-    display: flex;    
+    display: flex;
+}
+
+.error-box {    
+    margin-top: 30px;
+    text-align: left;
+    background-color: black;
+    color: white;
 }

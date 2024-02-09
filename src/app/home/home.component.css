@@ -1,8 +1,22 @@
-#home-container-root {    
-    background-color: rgb(245, 245, 245);    
-    border: 1px solid black;
+#home-container-root {            
+    color: white;
+    background-color: white;
+    height: 85vh;
+    width: 197.80vh;
 }
 
-#sidebar { 
-    background-color: red;
+.sidebar-container {
+    border-radius: 0%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    height: 85vh;    
+    background-color: #10101E;
+}
+
+.list-group-item {
+    width: 100%;
+    color: white;
+    background-color: rgba(71, 67, 67, 0.397);
 }
