@@ -1,0 +1,14 @@
+#dashboard-container-root {    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;    
+}
+
+.list-group-item {
+    width: 100%;
+    color: white;
+    border-color: transparent;
+    background-color: rgba(71, 67, 67, 0.397);
+}

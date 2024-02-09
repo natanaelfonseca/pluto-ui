@@ -17,7 +17,7 @@ export class LoginComponent implements OnInit {
   errorMessages: Array<string> = [];
 
   constructor(private router: Router,
-    private authService: AuthService ) { }
+    private authService: AuthService) { }
 
   ngOnInit() {
 
@@ -51,7 +51,7 @@ export class LoginComponent implements OnInit {
           localStorage.setItem('userPassword', password);
         }
 
-        this.router.navigate(['/home']);
+        this.router.navigate(['/home/dashboard']);
 
       } else {
         this.errorMessages.push("Credenciais inválidas");
