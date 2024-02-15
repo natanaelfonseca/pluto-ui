@@ -1,13 +1,78 @@
 <div class="container-fluid" id="dashboard-container-root">
+    <div class="row" style="height: 4%;  text-align: left;">
+        <div class="col">
+            <label for="cars" style="color: black;">Choose a Exam : </label>            
+            <select name="cars" id="cars">
+                <option value="volvo">MS AZ-900</option>
+                <option value="saab">MS AZ-104</option>
+            </select>
+        </div>
+    </div>
     <div class="row">
         <div class="col">
-            <div class="card">fdafasdf</div>
+            <div class="card">
+                <h3>Sua frequencia</h3>
+                <canvas baseChart width="750"
+                                  height="300"
+                                  [data]="lineChartData"
+                                  [options]="lineChartOptions"
+                                  [type]="lineChartType"
+                                  (chartHover)="chartHovered($event)"
+                                  (chartClick)="chartClicked($event)">
+                </canvas>
+            </div>
         </div>
         <div class="col">
-            <div class="card">fdafasdf</div>
+            <div class="card">
+                <h3>Seu desempenho na AZ-900</h3>
+                <canvas baseChart width="750"
+                                  height="300"
+                                  [data]="lineChartData"
+                                  [options]="lineChartOptions"
+                                  [type]="lineChartType"
+                                  (chartHover)="chartHovered($event)"
+                                  (chartClick)="chartClicked($event)">
+                </canvas>
+            </div>
         </div>
-        <div class="col">
-            <div class="card">fdafasdf</div>
+    </div>
+    <div class="row">
+        <div class="col-2">
+            <div class="card">
+                <h3>Ultimo Score</h3> 
+                <div>
+                    <h1>98%</h1>
+                </div>
+                <p>Sua última nota referente ao exame AZ-900 realizado no dia 04/01/2024 as 18:30</p>
+            </div>
+        </div>
+        <div class="col-2">
+            <div class="card">
+                <h3>Ultima Corrida</h3>
+                <div>
+                    <h1>1h</h1>
+                </div>
+                <p>Seu ultimo tempo referente ao exame AZ-900 realizado no dia 04/01/2024 as 18:30</p>
+            </div>
+        </div>
+        <div class="col-2">
+            <div class="card">
+                <h3>Recomendação Pluto</h3>
+                <div>
+                    <h1>Prepare a little bit more</h1>
+                </div>
+                <p>Recomendação da plataforma, com base nos ultimos exames realizados no PLUTO</p>
+            </div>
+        </div>
+        <div class="col-6">
+            <div class="card">
+                <h3>Guias de Estudo</h3>
+                <ul>
+                    <li>Pagina Oficial - AZ-900</li>
+                    <li>Guia Pluto - AZ-900</li>
+                    <li>Youtube Video</li>
+                </ul>
+            </div> 
         </div>
     </div>
 </div>

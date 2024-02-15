@@ -6,7 +6,12 @@ import { ExamsComponent } from './exams/exams.component';
 import { StoreComponent } from './store/store.component';
 import { ForumComponent } from './forum/forum.component';
 
-export const routes: Routes = [
+export const routes: Routes = [    
+    {
+        path: '',
+        redirectTo: '/login',
+        pathMatch: 'full'
+    },    
     {
         path: 'login',
         component: LoginComponent
@@ -31,10 +36,6 @@ export const routes: Routes = [
                 component: ForumComponent
             },            
         ]
-    },
-    {
-        path: '**',
-        component: HomeComponent
     }
 ];
 

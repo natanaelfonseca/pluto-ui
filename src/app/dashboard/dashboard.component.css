@@ -1,14 +1,19 @@
 #dashboard-container-root {    
-    display: flex;
-    justify-content: center;
-    align-items: center;
     height: 100%;
+    width: 100%;
+}
+
+.row {       
+    margin-top: 5px; 
+    height: 50%;
     width: 100%;    
 }
 
-.list-group-item {
-    width: 100%;
-    color: white;
-    border-color: transparent;
-    background-color: rgba(71, 67, 67, 0.397);
+.col {
+    width: 20%;    
+}
+
+.card {    
+    height: 85%;
+    background-color: rgba(243, 243, 243, 0.966);
 }
